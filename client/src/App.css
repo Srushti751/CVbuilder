@@ -1,0 +1,238 @@
+.storeLogo{
+  font-size: 26px;
+  margin: 0 10px;
+}
+
+.navbarStyle{
+  /* position:fixed;
+  width: 100%; */
+  top: 0;
+  z-index: 100;
+  position: sticky;
+  width: 100%;
+  
+
+}
+
+.navLinks{
+  margin: 0 20%;
+}
+.navLink{
+  margin: 0 30px;
+}
+
+
+
+
+
+h4{
+  font-size: 17px;
+}
+.registerStyle{
+  /* background-color: orange; */
+  background-color: #fff;
+  width: 60%;
+  margin-top: 5%;
+  border-radius: 50px;
+  /* box-shadow: 10px 10px 10px 10px #888888; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  
+}
+.registerForm{
+  border: 1px solid rgb(197, 191, 191);
+  border-radius: 20px;
+  margin: 15px;
+  box-shadow: 0 3px 10px rgb(185, 181, 181);
+
+}
+.formHead{
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.registerForm{
+  width:80%;
+}
+
+
+
+.regisLink{
+  display: flex;
+  float: left;
+ margin-top: 10px;
+ font-size: 15px;
+ font-weight: 600;
+}
+
+
+
+
+.formButton{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.formBtn{
+  background-color: rgb(76, 191, 211);
+  width: 30%;
+  border: none;
+  margin: 0 5px;
+  padding: 5px 3px;
+}
+
+
+
+
+
+.doneIcon{
+  background-color: rgb(16,181,25);
+  margin: 0 auto;
+  transform: scale(2.8);
+  border-radius: 50%;
+
+}
+.shareIcons{
+  display: flex;
+  padding-right: 10%;
+  color: #fff;
+  margin: 5%;
+}
+
+.svg_icons{
+  transform: scale(1.5);
+}
+
+
+
+.profileTable{
+    border-collapse: separate;
+    border-spacing: 0 2em;
+}
+.profileHead{
+  font-size: 26px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hoverColor:hover{
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+
+
+
+
+.profileImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 40%;
+    border-radius: 50%;
+    object-fit:fill;
+}
+
+
+
+
+.sortByButton{
+  width: 50%;
+  display:      block;
+  margin-left:  auto;
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  background-color: rgb(47,47,47);
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+
+
+.pdfStyle,.pdfEditor{
+  border: 2px solid grey;
+  padding: 15px;
+  width: 50%;
+}
+.pdfEditor{
+  width: 90%;
+}
+span{
+  font-weight: bold;
+}
+
+.invoiceStyle{
+  background-color: #f9d29d;
+  background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+  
+      width: 80%;
+      margin-top: 5%;
+      border-radius: 50px;
+      box-shadow: 5px 10px #888888;
+  }
+  .btnStyle{
+    background-color: #ee8c68;
+    background-image: linear-gradient(315deg, #ee8c68 0%, #eb6b9d 74%);
+    width: 10%;
+    text-decoration: none;
+    margin-bottom: 5%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-boxCol{
+  display: flex;
+  flex-direction: column;
+}
+.clear{
+  clear: both;
+}
+.downCol{
+  color: rgb(19, 158, 19);
+}
+.delCol{
+  color: rgb(223, 20, 20);
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnStyle{
+    padding-right: 50px;
+    font-size: 12px;
+  }
+  .formBtn{
+    width: 25%;
+    font-size: 12px;
+  }
+  .sortByButton{
+    width: 50%;
+  }
+
+}
+@media only screen and (max-width: 962px) {
+  .flex-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .btnStyle{
+    padding-right: 50px;
+    font-size: 12px;
+  }
+  .formBtn{
+    width: 20%;
+    font-size: 12px;
+  }
+  .sortByButton{
+    width: 50%;
+  }
+
+}
